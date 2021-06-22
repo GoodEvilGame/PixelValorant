@@ -1,0 +1,348 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.12f1 (afcadd793de6) revision 11520733'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 16282 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/PixelValorant/PixelValorant
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+54151
+Successfully changed project path to: C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/PixelValorant/PixelValorant
+C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/PixelValorant/PixelValorant
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 556.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.12f1 (afcadd793de6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/franc/OneDrive/Documentos/Programas/Unity projects/PixelValorant/PixelValorant/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     4055 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025148 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 299.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11865ms)
+		BeginReloadAssembly (549ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (3652ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1437ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (254ms)
+			SetupLoadedEditorAssemblies (1603ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (299ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (210ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 249.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7075ms)
+		BeginReloadAssembly (986ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (5686ms)
+			LoadAssemblies (523ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1883ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (336ms)
+			SetupLoadedEditorAssemblies (2343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (250ms)
+				BeforeProcessingInitializeOnLoad (462ms)
+				ProcessInitializeOnLoadAttributes (1482ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (49ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2554.
+Total: 29.004400 ms (FindLiveObjects: 0.700600 ms CreateObjectMapping: 14.002000 ms MarkObjects: 14.055200 ms  DeleteObjects: 0.229400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/cena1.unity
+  artifactKey: Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cena1.unity using Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae72feb944ca45cc5d281a68dd9f1120') in 0.115298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 369.668476 seconds.
+  path: Assets/cenario1_pronto.png
+  artifactKey: Guid(9949a8a1b41d04a4fa74c0be39b339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1_pronto.png using Guid(9949a8a1b41d04a4fa74c0be39b339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806fc5fbe5205643b4d2e067c1e9044a') in 2.857675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006487 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e6bee0820d81aff48a8174c8fcbfa5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e6bee0820d81aff48a8174c8fcbfa5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21765d1530c0a99106f9df7ddec3b2f') in 0.251573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/cenario2_pronto.png
+  artifactKey: Guid(cdd1fe4fe9cf0954db33b5e9770f9882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2_pronto.png using Guid(cdd1fe4fe9cf0954db33b5e9770f9882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eabb2f67e8d19520734c00356d7e741') in 0.619999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.243837 seconds.
+  path: Assets/Scenes/cena2.unity
+  artifactKey: Guid(8b1486eaa0315f24b9c9d32771a5296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cena2.unity using Guid(8b1486eaa0315f24b9c9d32771a5296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc904dcefa5137cf30de927f1c52bb') in 0.220619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.962544 seconds.
+  path: Assets/Scenes/cena1.unity
+  artifactKey: Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cena1.unity using Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed50bf192d96b2dfc23988e3b82ab76') in 0.223136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.267536 seconds.
+  path: Assets/Scenes/New Folder
+  artifactKey: Guid(2ad3a52ca2ec092428f66a0743cc4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Folder using Guid(2ad3a52ca2ec092428f66a0743cc4098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b640f382e3e740d094d24c15f56a79b') in 0.147636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 729.169850 seconds.
+  path: Assets/cenario2
+  artifactKey: Guid(bd4d5739381454b459f2cb901439dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2 using Guid(bd4d5739381454b459f2cb901439dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177329594de50ca7f665314e23e64f70') in 0.013777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056099 seconds.
+  path: Assets/cenario2/cenario2_pronto.png
+  artifactKey: Guid(34418dbda485cc24f8c37b7f8c47bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/cenario2_pronto.png using Guid(34418dbda485cc24f8c37b7f8c47bcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5356dfb4c83bbb91f713a171ab7f7643') in 1.101945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039534 seconds.
+  path: Assets/cenario2/cenario2.png
+  artifactKey: Guid(6c3d82c629189cf4c84602c372400ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/cenario2.png using Guid(6c3d82c629189cf4c84602c372400ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35811d7f221ee7bd7d45d9e11623aa6') in 0.193290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002910 seconds.
+  path: Assets/cenario2/spritesheet.png
+  artifactKey: Guid(e196bda107056dc4c8c8e678ef7c05f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/spritesheet.png using Guid(e196bda107056dc4c8c8e678ef7c05f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c30582cdcefb028bfc0f20d92c53f4') in 0.338019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419868 seconds.
+  path: Assets/Valorant SFX
+  artifactKey: Guid(1d8035270a82b3148a12bdcbf53dcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Valorant SFX using Guid(1d8035270a82b3148a12bdcbf53dcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368bbf7a27d303055e2e32a25b1d050c') in 0.106835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.330948 seconds.
+  path: Assets/cenario2 1
+  artifactKey: Guid(be7bd8dc4a1f78b49978048c93b08225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2 1 using Guid(be7bd8dc4a1f78b49978048c93b08225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7488daa3fa92815880e03777806c7a8c') in 0.115782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001637 seconds.
+  path: Assets/cenario2 1/cenario2_pronto.png
+  artifactKey: Guid(bf8b560c0d40677469a4b6df9fa5f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2 1/cenario2_pronto.png using Guid(bf8b560c0d40677469a4b6df9fa5f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4720b22306868d9f862af1c47813b055') in 0.310331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/cenario2 1/cenario2.png
+  artifactKey: Guid(a4da47e6809b7f2448a7d8cae6b2ae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2 1/cenario2.png using Guid(a4da47e6809b7f2448a7d8cae6b2ae5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a10e9b5e72984e5516baba63ef67c1') in 0.229944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047789 seconds.
+  path: Assets/cenario2 1/spritesheet.png
+  artifactKey: Guid(85a4f5726cf4eb049b6eb3977ac4dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2 1/spritesheet.png using Guid(85a4f5726cf4eb049b6eb3977ac4dbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e520e68f4fe7f2d819d9daecfcae6276') in 0.220033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.444955 seconds.
+  path: Assets/cenario1
+  artifactKey: Guid(ac597fdc9b2aab341840eaa4aafed13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1 using Guid(ac597fdc9b2aab341840eaa4aafed13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4705b07ed24e67ecd1df6a27c6e6fa') in 0.068948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/cenario1/cenario1.png
+  artifactKey: Guid(df71b9e2a0332e641801687ab4434db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/cenario1.png using Guid(df71b9e2a0332e641801687ab4434db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415197459269146291ce85ed8fd6f886') in 0.239109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004998 seconds.
+  path: Assets/cenario1/tilesheet.png
+  artifactKey: Guid(dc5c3118f00ebf342b0b18896844f7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/tilesheet.png using Guid(dc5c3118f00ebf342b0b18896844f7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d36ab430191feedaf3d6e97e7cd487') in 0.220501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006463 seconds.
+  path: Assets/cenario1/cenario1_pronto.png
+  artifactKey: Guid(d73e1f70433eb5042b38d0876963ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/cenario1_pronto.png using Guid(d73e1f70433eb5042b38d0876963ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e435d4c8adf5beea96550a72d433c0ea') in 0.149301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115186 seconds.
+  path: Assets/cenario1/killjoy
+  artifactKey: Guid(4477661af9e73474f8028f1eb0ccc377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy using Guid(4477661af9e73474f8028f1eb0ccc377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87475c8eb46d2aec314ebdc929a06f16') in 0.396046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/cenario1/killjoy/killjoy_morrendo.png
+  artifactKey: Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy_morrendo.png using Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebde5b315675386a198331773fae81e') in 0.228317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/cenario1/killjoy/killjoy.png
+  artifactKey: Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy.png using Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1279da505b152840abc1adbc684b59') in 0.232749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 406.603871 seconds.
+  path: Assets/cenario2/viper
+  artifactKey: Guid(b4dc101d6fa29514a81200c342916eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper using Guid(b4dc101d6fa29514a81200c342916eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ea0437eaa240e39800eda239d17ca9') in 0.407524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/cenario2/viper/viper_morrendo.png
+  artifactKey: Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper_morrendo.png using Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91af4256e76f6c375bca875c9d3cc60a') in 0.676629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000990 seconds.
+  path: Assets/cenario2/viper/viper.png
+  artifactKey: Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper.png using Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc9be72742dec8d43f0ccaf919e1cac') in 0.592914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 535.760408 seconds.
+  path: Assets/cenario1/killjoy/killjoy.png
+  artifactKey: Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy.png using Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1092d12b3c142ff853a2aac535a5f') in 0.862024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.374659 seconds.
+  path: Assets/cenario1/killjoy/killjoy.png
+  artifactKey: Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy.png using Guid(8dc19996023eb904b8021f014acb6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bff371f2916f8f6b4563aacde916a1d') in 1.061819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 596.893250 seconds.
+  path: Assets/cenario1/killjoy/killjoy_morrendo.png
+  artifactKey: Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy_morrendo.png using Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5a38ea9819b902c51b90c423d6c638') in 0.688419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.224657 seconds.
+  path: Assets/cenario1/killjoy/killjoy_morrendo.png
+  artifactKey: Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario1/killjoy/killjoy_morrendo.png using Guid(7a40592c0578af74bb5b76d94b12d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4e1d191260365ec63e9292bf1b5dbd') in 0.484717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.765927 seconds.
+  path: Assets/Scenes/cena2.unity
+  artifactKey: Guid(8b1486eaa0315f24b9c9d32771a5296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cena2.unity using Guid(8b1486eaa0315f24b9c9d32771a5296a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184ec021db54ad2ed11088113abb69e1') in 0.077332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.309152 seconds.
+  path: Assets/cenario2/viper/viper.png
+  artifactKey: Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper.png using Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6e25780d9ce6319e0bc6a4c7084594') in 0.288191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.641506 seconds.
+  path: Assets/cenario2/viper/viper.png
+  artifactKey: Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper.png using Guid(26a34c35048685c44868b9ed58fb7db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284d1f02dec2e5ffeded446724a1c1d') in 0.472612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.626542 seconds.
+  path: Assets/cenario2/viper/viper_morrendo.png
+  artifactKey: Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper_morrendo.png using Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9350b58e421208578dc5286b490ea77') in 0.403348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.999728 seconds.
+  path: Assets/cenario2/viper/viper_morrendo.png
+  artifactKey: Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cenario2/viper/viper_morrendo.png using Guid(c4b6980b1d8dfc243b29037e806e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ce6334c586cdaaa1d117b8f01a6704') in 0.770671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 279.719676 seconds.
+  path: Assets/Scenes/cena1.unity
+  artifactKey: Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cena1.unity using Guid(58ae2a667ea0d9047a423d78e8cc0b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d55f217f2cd8247e2c5fbd8eeda848f') in 0.068067 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
