@@ -22,7 +22,7 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        //Indentificando inputs direcionais e rotacionando o player de acordo com a direção
+        //Indentificando inputs direcionais e rotacionando o player de acordo com a direï¿½ï¿½o
         dir = Input.GetAxisRaw("Horizontal");
         Vector3 playerScale = transform.localScale;
         if (dir > 0)
@@ -39,6 +39,10 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             jump = true;
+        } 
+        else if(Input.GetKeyUp(KeyCode.W))
+        {
+            jump = false;
         }
         
         AnimController();   
@@ -48,10 +52,9 @@ public class playerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(dir * speed, rb.velocity.y);
-        if(jump == true)
+        if(jump == true && onFloor == true)
         {
             rb.velocity = Vector2.up * jumpForce;
-            jump = false;
         }
     }
 
@@ -60,16 +63,14 @@ public class playerController : MonoBehaviour
         if(collision.gameObject.CompareTag("floor"))
         {
             onFloor = true;
-            Debug.Log("Enter");
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("floor"))
-        {
+        {   
             onFloor = false;
-            Debug.Log("Exit");
         }
     }
     private void AnimController()

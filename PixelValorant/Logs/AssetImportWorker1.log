@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.12f1 (afcadd793de6) revision 11520733'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'pt' Physical Memory: 8105 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 3973 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,29 +11,29 @@ C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/lucas/Documents/Ete/Projeto Integrado/PixelValorant/PixelValorant
+C:/Users/Acer/Desktop/git pixwl vava2/PixelValorant/PixelValorant
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58066
-Successfully changed project path to: C:/Users/lucas/Documents/Ete/Projeto Integrado/PixelValorant/PixelValorant
-C:/Users/lucas/Documents/Ete/Projeto Integrado/PixelValorant/PixelValorant
+55970
+Successfully changed project path to: C:/Users/Acer/Desktop/git pixwl vava2/PixelValorant/PixelValorant
+C:/Users/Acer/Desktop/git pixwl vava2/PixelValorant/PixelValorant
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lucas/Documents/Ete/Projeto Integrado/PixelValorant/PixelValorant/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Desktop/git pixwl vava2/PixelValorant/PixelValorant/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
-    Vendor:   ATI
-    VRAM:     8171 MB
-    Driver:   27.20.21003.8013
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     1986 MB
+    Driver:   25.20.100.6615
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
