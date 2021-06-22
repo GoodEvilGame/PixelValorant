@@ -1,6 +1,0 @@
-Kills go in order from 1-5, starting at a single kill (1) to an Ace (5).
-Example: If you had a clip with a triple kill, you would use 'Kill 1'
-for the first kill, 'Kill 2' for the double, then 'Kill 3' for the Triple!
-
-Each kill has a different sound effect depending on how many you've
-already got in the round.
