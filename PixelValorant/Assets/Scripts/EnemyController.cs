@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform shootPoint;
-    public GameObject bullet;
     public Animator animator;
+    public gunController gunController;
 
-    private bool isShooting;
+    private bool isShooting = true;
     private int health = 150;
-    public float shootCooldown = 1f;
-    private float nextFireTime = 0f;
-    private bool CanFire { get { return Time.time > nextFireTime; } }
+  
     void Start()
     {
         
@@ -21,25 +18,10 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Shoot();
+        gunController.Shoot(transform.localScale.x);
         StartCoroutine(AnimController());
     }
 
-    void Shoot()
-    {
-        isShooting = true;
-        if(CanFire) 
-        {
-            nextFireTime = Time.time + shootCooldown;
-        }
-        else
-        {
-            isShooting = false;
-            return;
-        }
-
-        GameObject newBullet = Instantiate(bullet, shootPoint.position, shootPoint.rotation);
-    }
 
     IEnumerator AnimController()
     {

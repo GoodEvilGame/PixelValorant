@@ -6,12 +6,14 @@ public class playerController : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator anim;
-    
+    public gunController gunController;
+
     public int speed;
     public int jumpForce;
     public float dir;
     public bool jump;
     public bool onFloor;
+    public bool isShooting;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,30 +25,19 @@ public class playerController : MonoBehaviour
     private void Update()
     {
         //Indentificando inputs direcionais e rotacionando o player de acordo com a dire��o
-        dir = Input.GetAxisRaw("Horizontal");
-        Vector3 playerScale = transform.localScale;
-        if (dir > 0)
+       if(isShooting == false)
         {
-            playerScale.x = 3;
+            Moving();
         }
-        if (dir < 0)
-        {
-            playerScale.x = -3;
-        }
-        transform.localScale = playerScale;
 
-        //Verificando input de pulo
-        if (Input.GetKeyDown(KeyCode.W))
+        //Shooting
+        if(Input.GetKeyDown(KeyCode.P))
         {
-            jump = true;
-        } 
-        else if(Input.GetKeyUp(KeyCode.W))
-        {
-            jump = false;
+            StartCoroutine(Shoot());
         }
         
         AnimController();   
-               
+                
     }
 
     private void FixedUpdate()
@@ -94,5 +85,47 @@ public class playerController : MonoBehaviour
             anim.SetBool("jumpping", false);
         }
         ///////////////////////////////////
+        if(isShooting == true)
+        {
+            anim.SetBool("shootting", true);
+            Debug.Log("piupiu tiro");
+        }
+        else
+        {
+            anim.SetBool("shootting", false);
+        }
+    }
+
+    void Moving()
+    {
+        dir = Input.GetAxisRaw("Horizontal");
+        Vector3 playerScale = transform.localScale;
+        if (dir > 0)
+        {
+            playerScale.x = 3;
+        }
+        if (dir < 0)
+        {
+            playerScale.x = -3;
+        }
+        transform.localScale = playerScale;
+
+        //Verificando input de pulo
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            jump = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.W))
+        {
+            jump = false;
+        }
+    }
+
+    IEnumerator Shoot()
+    {
+        isShooting = true;
+        gunController.Shoot(transform.localScale.x);
+        yield return new WaitForSeconds(1f);
+        isShooting = false;
     }
 }
