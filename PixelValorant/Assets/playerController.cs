@@ -32,7 +32,7 @@ public class playerController : MonoBehaviour
         }
 
         //Shooting
-        if(Input.GetKeyDown(KeyCode.P))
+        if(Input.GetMouseButtonDown(0))
         {
             StartCoroutine(Shoot());
         }
