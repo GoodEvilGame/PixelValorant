@@ -8,6 +8,8 @@ public class gunController : MonoBehaviour
     public Bullet bullet;
     public Transform shootPoint;
     public string tagE;
+    public string tagName;
+
 
     public float shootCooldown;
     private float nextFireTime;
@@ -35,6 +37,7 @@ public class gunController : MonoBehaviour
             return;
         }
 
+        bullet.tag = tagName;
         bullet.TagE = tagE;
         bullet.Direction = direction;
         Instantiate(bullet, shootPoint.position, shootPoint.rotation);

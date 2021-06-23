@@ -12,12 +12,14 @@ public class playerController : MonoBehaviour
     public Animator anim;
     public gunController gunController;
 
+    public int health = 150;
     public int speed;
     public int jumpForce;
     public float dir;
     public bool jump;
     public bool onFloor;
     public bool isShooting;
+    public bool isDead;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class playerController : MonoBehaviour
     private void Update()
     {
         //Indentificando inputs direcionais e rotacionando o player de acordo com a dire��o
-       if(isShooting == false)
+       if(isShooting == false && isDead == false)
         {
             Moving();
         }
@@ -47,6 +49,12 @@ public class playerController : MonoBehaviour
             audioSource.PlayOneShot(viper, 1.0F);
             SceneManager.LoadScene(1);
         }  
+
+        if(health <= 0)
+        {
+            isDead = true;
+            StartCoroutine(Death());
+        }
                 
     }
 
@@ -64,6 +72,14 @@ public class playerController : MonoBehaviour
         if(collision.gameObject.CompareTag("floor"))
         {
             onFloor = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            Dano(10);
         }
     }
 
@@ -95,14 +111,18 @@ public class playerController : MonoBehaviour
             anim.SetBool("jumpping", false);
         }
         ///////////////////////////////////
-        Debug.Log(isShooting);
-        if(isShooting == true)
+        if(isShooting)
         {
             anim.SetBool("shootting", true);
         }
         else
         {
             anim.SetBool("shootting", false);
+        }
+        ////////////////////////////////////
+        if (isDead)
+        {
+            anim.SetBool("dead", true);
         }
     }
 
@@ -136,7 +156,19 @@ public class playerController : MonoBehaviour
         isShooting = true;
         anim.SetBool("shootting", false);
         gunController.Shoot(transform.localScale.x);
-        yield return new WaitForSeconds(1f);   
+        yield return new WaitForSeconds(0f);   
         isShooting = false;    
     }
+
+    private void Dano(int dano)
+    {
+        health -= dano;
+    }
+    
+    IEnumerator Death()
+    {
+        yield return new WaitForSecondsRealtime(1);
+        SceneManager.LoadScene(0);
+    }
+
 }

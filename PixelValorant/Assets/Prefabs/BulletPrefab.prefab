@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1236093359116118079}
   m_Layer: 0
   m_Name: BulletPrefab
-  m_TagString: Untagged
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   vandal: {fileID: 8300000, guid: 23a056936c1872b458a1639b3395b2b3, type: 3}
   speed: 20
   rb: {fileID: -8718075244686699202}
-  TagE: Player
+  TagE: Enemy
   Direction: 1
 --- !u!50 &-8718075244686699202
 Rigidbody2D:
@@ -138,9 +138,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0004144907, y: 0}
+  m_Offset: {x: -0.00004278289, y: -0.0010118932}
   serializedVersion: 2
-  m_Radius: 0.092953086
+  m_Radius: 0.018739687
 --- !u!82 &-1236093359116118079
 AudioSource:
   m_ObjectHideFlags: 0

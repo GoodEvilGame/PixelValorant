@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     public gunController gunController;
 
     private bool isShooting = true;
-    private int health = 150;
+    public int health = 150;
   
     void Start()
     {
@@ -18,8 +18,17 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gunController.Shoot(transform.localScale.x);
-        StartCoroutine(AnimController());
+        if (health > 0)
+        {
+            gunController.Shoot(transform.localScale.x);
+            StartCoroutine(AnimController());
+        }
+        else
+        {
+            animator.SetBool("dead", true);
+            Debug.Log("moreu");
+        }
+        
     }
 
 
@@ -27,5 +36,18 @@ public class EnemyController : MonoBehaviour
     {
         if (isShooting) { animator.SetBool("isShooting", true); yield return new WaitForSeconds(0.1f); animator.SetBool("isShooting", false); }
  
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("PlayerBullet"))
+        {
+            Dano(10);
+        }
+    }
+
+    private void Dano(int dano)
+    {
+        health -= dano;
     }
 }

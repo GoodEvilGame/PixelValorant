@@ -901,6 +901,7 @@ MonoBehaviour:
   bullet: {fileID: 7517640681655315439, guid: 86c4e989eb2f882409d83279fa26bdf2, type: 3}
   shootPoint: {fileID: 1119664960}
   tagE: Player
+  tagName: EnemyBullet
   shootCooldown: 1
 --- !u!82 &1824678554
 AudioSource:
@@ -1165,15 +1166,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e251eee69b23edb42937663383f0a0f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  viper: {fileID: 0}
   rb: {fileID: 1875838519}
   anim: {fileID: 1875838518}
   gunController: {fileID: 1875838522}
+  health: 150
   speed: 0
   jumpForce: 0
   dir: 0
   jump: 0
   onFloor: 0
   isShooting: 0
+  isDead: 0
 --- !u!114 &1875838522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,4 +1193,5 @@ MonoBehaviour:
   bullet: {fileID: 7517640681655315439, guid: 86c4e989eb2f882409d83279fa26bdf2, type: 3}
   shootPoint: {fileID: 714166219}
   tagE: Enemy
+  tagName: PlayerBullet
   shootCooldown: 2

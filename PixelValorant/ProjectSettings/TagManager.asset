@@ -8,6 +8,9 @@ TagManager:
   - plataform
   - Enemy
   - Cena2
+  - EnemyBullet
+  - PlayerBullet
+  - win
   layers:
   - Default
   - TransparentFX
