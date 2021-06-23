@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
+    public AudioClip viper;
+    AudioSource audioSource;
+
     public Rigidbody2D rb;
     public Animator anim;
     public gunController gunController;
@@ -18,6 +21,7 @@ public class playerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         speed = 7;
         jumpForce = 12;
     }
@@ -40,6 +44,7 @@ public class playerController : MonoBehaviour
         AnimController(); 
         if(transform.localPosition.x <= -9)
         {
+            audioSource.PlayOneShot(viper, 1.0F);
             SceneManager.LoadScene(1);
         }  
                 
