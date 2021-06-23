@@ -26,7 +26,6 @@ public class gunController : MonoBehaviour
     public void Shoot(float scaleX)
     {
         float direction = scaleX / (Math.Abs(scaleX));
-
         if (CanFire)
         {
             nextFireTime = Time.time + shootCooldown;
