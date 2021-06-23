@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
@@ -36,7 +37,11 @@ public class playerController : MonoBehaviour
             StartCoroutine(Shoot());
         }
         
-        AnimController();   
+        AnimController(); 
+        if(transform.localPosition.x <= -9)
+        {
+            SceneManager.LoadScene(1);
+        }  
                 
     }
 
@@ -85,10 +90,10 @@ public class playerController : MonoBehaviour
             anim.SetBool("jumpping", false);
         }
         ///////////////////////////////////
+        Debug.Log(isShooting);
         if(isShooting == true)
         {
             anim.SetBool("shootting", true);
-            Debug.Log("piupiu tiro");
         }
         else
         {
@@ -124,8 +129,9 @@ public class playerController : MonoBehaviour
     IEnumerator Shoot()
     {
         isShooting = true;
+        anim.SetBool("shootting", false);
         gunController.Shoot(transform.localScale.x);
-        yield return new WaitForSeconds(1f);
-        isShooting = false;
+        yield return new WaitForSeconds(1f);   
+        isShooting = false;    
     }
 }
