@@ -11,6 +11,7 @@ TagManager:
   - EnemyBullet
   - PlayerBullet
   - win
+  - interacao
   layers:
   - Default
   - TransparentFX

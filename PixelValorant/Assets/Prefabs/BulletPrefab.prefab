@@ -103,7 +103,7 @@ MonoBehaviour:
   speed: 20
   rb: {fileID: -8718075244686699202}
   TagE: Enemy
-  Direction: 1
+  Direction: -1
 --- !u!50 &-8718075244686699202
 Rigidbody2D:
   serializedVersion: 4
